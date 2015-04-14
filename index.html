@@ -17,7 +17,7 @@
     <meta name="google-site-verification" content="RDZI9SqVaffd48uHfZMv67-YdvviOMe2HuULEYqVgd4" />
     <meta property="og:image" content="http://ellisonleao.github.io/clumsy-bird/data/img/bg.png" />
     <meta property="og:title" content="Flappy Birda - A Flappy Bird clone using MelonJS"/>
-    <meta property="og:url" content="http://ellisonleao.github.io/clumsy-bird/"/>
+    <meta property="og:url" content="http://alice17.github.io/flappy-birda/"/>
     <meta property="og:site_name" content="Flappy Birda - MelonJS"/>
 
     <!-- Twitter Card -->
@@ -37,39 +37,27 @@
   </head>
 
   <body>
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '213642148840283',
-          status     : true,
-          xfbml      : true
-        });
-      };
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.3&appId=99336598241";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/pt_BR/all.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-       addToHomescreen();
-    </script>
+
     <!-- Canvas placeholder -->
     <div id="screen"></div>
     <!-- Sharing section -->
     <div id="share">
         <div
             class="fb-share-button"
-            data-href="http://ellisonleao.github.io/clumsy-bird/"
+            data-href="http://alice17.github.io/flappy-birda/"
             data-type="button_count">
         </div>
-        <a
-            href="https://twitter.com/ellisonleao"
-            class="twitter-follow-button"
-            data-show-count="false">Follow @ellisonleao
-        </a>
+    <div class="fb-like" data-href="https://www.facebook.com/alfredyeahofficial" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
       <div class="google">
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
