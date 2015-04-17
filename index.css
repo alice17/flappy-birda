@@ -32,11 +32,11 @@ body {
 }
 
 #share {
-  margin: 10px auto;
+  margin: auto;
   text-align: center;
 }
 
-#share .fb-share-button iframe {
+#share .fb-like iframe {
   margin-top: -4px;
 }
 
